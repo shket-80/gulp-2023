@@ -1,34 +1,3 @@
 // Обнуление стилей
 @import "config/reset.scss"; // Обнуление стилей
 @import "config/fonts.scss";
-
-//************************************************
-body {
-	background-color: #000;
-	color: #FFFFFF;
-	font-family: DMSans;
-	padding: 0 5px 0 5px;
-}
-
-$container: #191919;
-
-.container {
-	max-width: 1440px;
-	margin: 0 auto;
-	background-color: $container;
-}
-
-.flex {
-	display: flex;
-}
-
-//*****HEADER******
-@import "config/header.scss";
-
-//*****SCREEN1*****
-@import "config/screen1.scss";
-
-//*****calc*****
-@import "config/calc.scss";
-//!!!!!!!!!! media !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-@import "config/media.scss";
